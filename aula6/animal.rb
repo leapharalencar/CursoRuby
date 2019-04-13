@@ -14,6 +14,12 @@ class Cachorro < Animal
     end
 end
 
+class Gato < Animal
+    def meow
+        puts 'meow'
+    end
+end
+
 
 cachorro = Cachorro.new
 cachorro.pular
